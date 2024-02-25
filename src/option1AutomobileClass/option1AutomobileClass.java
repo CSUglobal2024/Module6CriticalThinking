@@ -4,6 +4,28 @@ package option1AutomobileClass;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//------Pseudocode------
+//addAutomobile(Automobile automobile):
+//    Append the given automobile to the ArrayList.
+//
+//removeAutomobile(String make, String model, String color, int year):
+//    For each automobile in the ArrayList:
+//        If the make, model, color, and year of the automobile match the given parameters:
+//            Remove the automobile from the ArrayList.
+//            Return true.
+//    Return false if no matching automobile is found.
+//
+//displayAutomobiles():
+//    For each automobile in the ArrayList:
+//        Print the string representation of the automobile.
+//
+//searchAutomobile(String make, String model, String color, int year):
+//    For each automobile in the ArrayList:
+//        If the make, model, color, and year of the automobile match the given parameters:
+//            Return true.
+//    Return false if no matching automobile is found.
+
+
 public class option1AutomobileClass {
     private ArrayList<Automobile> automobiles;
 
