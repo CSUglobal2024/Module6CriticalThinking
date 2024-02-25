@@ -50,6 +50,7 @@ public class option1AutomobileClass {
 			
 			Automobile automobile = new Automobile(make, model, year, color);
 			automobiles.add(automobile);
+			scanner.close(); // Close the Scanner
 		}
     }
 
